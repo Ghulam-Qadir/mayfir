@@ -1,0 +1,11 @@
+IMAGE SOURCE NOTE
+The design uses temporary high-resolution automotive imagery from Unsplash because this runtime could not download the Mayfair Limousines media files directly.
+
+Verified Mayfair source pages for the intended real vehicle imagery:
+- https://www.mayfairlimousines.com.au/fleet
+- https://www.mayfairlimousines.com.au/fleet/hummer-h2-6x6
+- https://www.mayfairlimousines.com.au/fleet/white-hummer
+- https://www.mayfairlimousines.com.au/fleet/bmw-x5m
+- https://www.mayfairlimousines.com.au/fleet/rolls-royce-tribute
+
+Replace the temporary image URLs in index.html and js/app.js with the licensed/downloaded Mayfair image files before production use.
