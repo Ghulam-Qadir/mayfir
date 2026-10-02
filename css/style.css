@@ -1397,6 +1397,10 @@ figcaption {
   max-width: 250px;
   width: 100%;
   object-fit: contain;
+  filter: brightness(0) saturate(100%)
+          invert(80%) sepia(18%)
+          saturate(500%) hue-rotate(358deg)
+          brightness(91%) contrast(88%);
 }
 
 @media(min-width:901px) {
