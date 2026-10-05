@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="css/enquiry-modal.css">
 <link rel="stylesheet" href="css/home-shell.css">
 </head>
 <body>
@@ -19,13 +20,13 @@
 	<a class="brand" href="index.html" aria-label="Monarch Luxury Cars home">
 		<img src="assets/monarch-logo-4k.png" alt="" style="max-width: 250px;">
 	</a>
-	<nav class="desktop-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="services.html#fleet">Fleet</a><a href="contact.html">Contact</a></nav>
-	<a class="header-cta magnetic" href="contact.html">Make an enquiry <span>↗</span></a>
+<nav class="desktop-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="services.html#fleet">Fleet</a><a href="contact.html">Contact</a></nav>
+	<button class="header-cta magnetic" type="button" data-enq-open>Make an enquiry <span aria-hidden="true">&#8599;</span></button>
 	<button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
 		<span class="menu-label">MENU</span><span class="menu-icon"><i></i><i></i></span>
 	</button>
 </header>
-<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="services.html#fleet">Fleet</a><a href="contact.html">Contact</a></nav>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="services.html#fleet">Fleet</a><a href="contact.html">Contact</a><button class="mobile-enquiry" type="button" data-enq-open>Make an enquiry <span aria-hidden="true">&#8599;</span></button></nav>
 
 <main id="main" >
 <span id="top" class="page-top-anchor" aria-hidden="true"></span>
@@ -146,5 +147,6 @@
 	<div class="footer-bottom"><span>© 2026 MONARCH LUXURY CARS</span><span>DESIGNED FOR THE DRIVE</span></div>
 </footer>
 <script src="contact.js"></script>
+<script src="js/enquiry-modal.js" defer></script>
 </body>
 </html>
